@@ -3,9 +3,9 @@ import numpy as np
 import matplotlib
 from sklearn.linear_model import LinearRegression
 
-matplotlib.use("Agg")
+matplotlib.use("Agg") 
 import sys
-import os
+import os 
 
 # Get the absolute path of the project root
 project_root = os.path.abspath(os.path.join(os.getcwd(), ".."))
